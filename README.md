@@ -1,5 +1,4 @@
 # DeBiFormer Implementation & T2T-Vit
-### Vision Transformer with Deformable Agent Bi-level Routing Attention - Student Project
 
 ## 安裝與使用
 ### 環境準備
