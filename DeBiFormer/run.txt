@@ -1,0 +1,6 @@
+python main.py --model debi_small --batch-size 64 --epochs 5 --data-path ../dataset/imagenet-mini
+python main.py   --model debi_small   --batch-size 16   --epochs 20   --warmup-epochs 5   --lr 1e-3   --weight-decay 0.1   --data-path ../dataset/imagenet-mini   --output-dir ./output_small
+python main.py --model debi_tiny --batch-size 16 --epochs 50 --data-path ../dataset/imagenet-mini --output-dir ./output_tiny
+python main.py    --model debi_tiny    --batch-size 16   --epochs 200  --data-path ../dataset/imagenet-mini    --output-dir ./output_tiny2   --finetune   --aa rand-m9-mstd0.5-inc1   --repeated-aug  --mixup 0.8  --cutmix 1.0   --smoothing 0.1   --lr 3e-4           
+          --warmup-epochs 5             --decay-epochs 30          --decay-rate 0.1    
+繼續: python main.py --model debi_tiny --batch-size 16 --epochs 200 --data-path ../dataset/imagenet-mini --output-dir ./output_tiny2 --resume ./output_tiny2/checkpoint.pth --aa rand-m9-mstd0.5-inc1 --repeated-aug --mixup 0.8 --cutmix 1.0 --smoothing 0.1 --lr 3e-4 --warmup-epochs 5 --decay-epochs 30 --decay-rate 0.1

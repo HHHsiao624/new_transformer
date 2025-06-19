@@ -1,0 +1,42 @@
+# Dataset 資料夾
+dataset/
+datasets/
+
+assests
+nextvit_cls_exp
+
+# Python 虛擬環境
+.venv*/
+venv/
+env/
+
+# Python 編譯檔案
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 環境變數檔案
+.env
+.env.local
+
+# IDE 設定
+.vscode/
+.idea/
+
+# 日誌檔案
+*.log
+
+# 暫存檔案
+*.tmp
+*.temp
+
+# OS 產生的檔案
+.DS_Store
+Thumbs.db
+
+# 模型檔案（如果很大的話）
+*.pth
+*.pt
+*.ckptdataset/ 
+datasets/ 
